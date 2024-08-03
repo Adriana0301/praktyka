@@ -24,6 +24,11 @@
                 </ul>
             </nav>
             <button type="button" class="button-order-now">Order Now</button>
+            <button class="burger-btn" type="button" data-menu-open>
+                <svg class="burger-icon" width="28" height="28">
+                  <use href="./images/icons.svg#icon-menu"></use>
+                </svg>
+              </button>
         </div>  
     </header>
     <main>
@@ -65,7 +70,14 @@
                             <p class="about-descr">You can browse through a wide variety of cuisines and restaurants, select your favorite meals, and place your order in just a few clicks.</p>
                         </li>
                     </ul>
-                    <button type="button" class="button-order-now about-btn">Order Now</button>
+                    <ul class="button-list">
+                    <li class="button-list-item"><button type="button" class="button-order-now about-btn">Order Now</button></li>
+                    <li class="button-list-item"><button type="button" class="read-more">Read More
+                        <a href="" class="chevron-down">
+                            <svg width="15" height="14">
+                                <use href="./images/icons.svg#icon-Chevron-Down"></use>
+                            </svg>
+                    </a></button></ul></li>
                 </div>
             </div>
         </section>
@@ -118,7 +130,7 @@
                         </ul>
                         <b class="reviews-list-subtitle">"The Best app I have used to order food in a while, so many options to choose from too, I would recommend to a freind, No questions asked"</b>
                         <div class="reviews-list-wrap">
-                            <img src="./images/ellipse9-min.png" alt="men" width="48" height="48">
+                            <img src="./images/ellipse9-min.png" alt="men" width="48" height="48" class="rewies-img">
                             <div class="list-text-wrap">
                                 <h3 class="reviews-list-title">Sumith Shah</h3>
                                 <p class="reviews-list-text">Some Dude</p>
@@ -155,7 +167,7 @@
                         </ul>
                         <b class="reviews-list-subtitle">"The ease with which I can just go in and order what i want was amazing, It has been a very pleasant experience ordering from this app"</b>
                         <div class="reviews-list-wrap">
-                            <img src="./images/ellipse10-min.png" alt="women">
+                            <img src="./images/ellipse10-min.png" alt="women" class="rewies-img">
                             <div class="list-text-wrap">
                                 <h3 class="reviews-list-title">Sumith Shah</h3>
                                 <p class="reviews-list-text">Some Dude</p>
@@ -176,11 +188,11 @@
                         <label for="offers-form"></label>
                     </form>
                 </div>
-                <img src="./images/banan-min.png" alt="banana" width="608" height="266">
+                <img src="./images/banan-min.png" alt="banana" width="608" height="266" class="offers-img">
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container footer-container">
             <a href="" class="footer-logo"><img src="./images/Vectorlogo.svg" alt=""></a>
             <ul class="footer-list">
@@ -209,7 +221,7 @@
             <p class="footer-text-end">2022 FoodSta. All right reserved.</p>
             </div>
         
-    </footer>
+    </footer> -->
     <div class="backdrop">
         <div class="modal">
             <button class="modal-close-btn">
