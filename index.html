@@ -57,7 +57,12 @@
                     <p class="hero-title-text">With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal from the comfort of your own home</p>
                     <button type="button" class="button-order-now" data-modal-open>Order Now</button>
                 </div>
-                <img src="./images/food.png" alt="salat" width="528" height="528" class="hero-img">
+                <picture class="hero-picture">  
+                    <source srcset="./images/hero-tab.png 1x, ./images/hero-tab2x.png 2x" media="(min-width:768px)">
+                    <source srcset="./images/hero.png 1x, ./images/hero2x.png 2x" media="(min-width:1158px)">
+                    <img src="./images/hero.png" alt="salat" width="528" height="528" class="hero-img">
+                </picture> 
+                
             </div>
         </section>
         <section class="about">
@@ -137,7 +142,6 @@
                     <li class="food-list-item">
                         <picture class="food-picture">  
                             <source srcset="./images/chicken-tab.png 1x, ./images/chicken-tab2x.png 2x" media="(min-width:768px)">
-                            <source srcset="./images/chicken-mb.png 1x, ./images/chicken-mb2x.png 2x" media="(max-width:768px)">
                             <source srcset="./images/chicken-min.png 1x, ./images/chicken2x.png 2x" media="(min-width:1158px)">
                             <img src="./images/chicken-min.png" alt="pizza" width="315" height="315">
                         </picture>
@@ -145,7 +149,6 @@
                     <li class="food-list-item">
                         <picture class="food-picture">  
                             <source srcset="./images/salat-tab.png 1x, ./images/salat-tab2x.png 2x" media="(min-width:768px)">
-                            <source srcset="./images/salat-mb.png 1x, ./images/salat-mb2x.png 2x" media="(max-width:768px)">
                             <source srcset="./images/salat-min.png 1x, ./images/salat2x.png 2x" media="(min-width:1158px)">
                             <img src="./images/salat-min.png" alt="pizza" width="315" height="315">
                         </picture>
@@ -153,7 +156,6 @@
                     <li class="food-list-item">
                         <picture class="food-picture">  
                             <source srcset="./images/borshch-tab.png 1x, ./images/borshch-tab2x.png 2x" media="(min-width:768px)">
-                            <source srcset="./images/borshch-mb.png 1x, ./images/borshch-mb2x.png 2x" media="(max-width:768px)">
                             <source srcset="./images/borshch-min.png 1x, ./images/borshch2x.png 2x" media="(min-width:1158px)">
                             <img src="./images/borshch-min.png" alt="pizza" width="315" height="315">
                         </picture>
