@@ -37,7 +37,7 @@
                 <div class="hero-text-wrap">
                     <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
                     <p class="hero-title-text">With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal from the comfort of your own home</p>
-                    <button type="button" class="button-order-now">Order Now</button>
+                    <button type="button" class="button-order-now" data-modal-open>Order Now</button>
                 </div>
                 <img src="./images/food.png" alt="salat" width="528" height="528" class="hero-img">
             </div>
@@ -71,7 +71,7 @@
                         </li>
                     </ul>
                     <ul class="button-list">
-                    <li class="button-list-item"><button type="button" class="button-order-now about-btn">Order Now</button></li>
+                    <li class="button-list-item"><button type="button" class="button-order-now about-btn" data-modal-open>Order Now</button></li>
                     <li class="button-list-item"><button type="button" class="read-more">Read More
                         <a href="" class="chevron-down">
                             <svg width="15" height="14">
@@ -179,9 +179,9 @@
         </section>
         <section class="offers">
             <div class=" container container-offers">
-                <picture class="">  
+                <picture class="banana-picture">  
                     <source srcset="./images/banana-tab.png 1x, ./images/banana-tab2x.png 2x" media="(min-width:768px)">
-                    <source srcset="./images/banana-mb.png 1x, ./images/banana-mb.png 2x" media="(max-width:768px)">
+                    <source srcset="./images/banana-mb.png 1x, ./images/banana-mb2x.png 2x" media="(max-width:768px)">
                     <source srcset="./images/banan-min.png 1x, ./images/banan2x.png 2x" media="(min-width:1158px)">
                     <img src="./images/banan-min.png" alt="banana"  width="608" class="offers-img">
                 </picture>  
@@ -197,8 +197,9 @@
             </div>
         </section>
     </main>
-    <!-- <footer class="footer">
+    <footer class="footer">
         <div class="container footer-container">
+            <div class="footer-mb">
             <a href="" class="footer-logo"><img src="./images/Vectorlogo.svg" alt=""></a>
             <ul class="footer-list">
                 <li class="footer-list-item"><a href="" class="footer-list-item-link">Home</a></li>
@@ -206,7 +207,7 @@
                 <li class="footer-list-item"><a href="" class="footer-list-item-link">Service</a></li>
                 <li class="footer-list-item"><a href="" class="footer-list-item-link">Menu</a></li>
                 <li class="footer-list-item"><a href="" class="footer-list-item-link">Contact</a></li>
-            </ul>
+            </ul></div>
             <div class="container-footer-text">
                 <b class="footer-text-b">Subscribe</b>
                 <form action="" class="footer-form"> 
@@ -225,11 +226,10 @@
             </ul>
             <p class="footer-text-end">2022 FoodSta. All right reserved.</p>
             </div>
-        
-    </footer> -->
-    <div class="backdrop">
+    </footer>
+    <div class="backdrop" data-modal>
         <div class="modal">
-            <button class="modal-close-btn">
+            <button class="modal-close-btn" data-modal-close>
                 <svg class="modal-close-icon" height="12" width="12">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
@@ -248,5 +248,7 @@
                 </form>
         </div>
     </div>
+
+    <script src="./js/modal.js"></script>
 </body>
 </html>
