@@ -777,23 +777,30 @@ img {
 .offers {
     padding-top: 17px;
     padding-bottom: 60px;
-    padding-right: 20px;
 }
 .container-offers {
-    position: relative;
 }
+
 .offers-img {
+    margin-bottom: 17px;
+}
+/* .offers-img {
     position: absolute;
     top: 0;
-    right: 55px;
-    display: block;
+    right: 55px auto;
+    display:block;
 
-}
+} */
 
-.offers-text-wrap {
+/* .offers-text-wrap {
     position: absolute;
     top: 137px;
-}
+    left: auto 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
 .offers-title {
     margin-bottom: 20px;
     font-size: 28px;
@@ -802,7 +809,6 @@ img {
 .offers-text {
     line-height: 1.5;
     margin-bottom: 24px;
-    max-width: 280px;
 }
 .offers-btn {
     font-weight: 500;
@@ -817,7 +823,6 @@ img {
     height: 42px;
     padding: 10px 20px;
     border: none;
-    margin-right: ;
     
 }
 
@@ -859,8 +864,7 @@ color: #505050;
     }
 
     .container-offers {
-        display: flex;
-        align-items: center;
+
     }
 
     .offers-email {
@@ -873,50 +877,43 @@ color: #505050;
         gap: 22px;
     }
 
-    .offers-img {
-        position: absolute;
-        top: 0;
-        right: 0;
-        display: block;
-    
-    }
-    
-    .offers-text-wrap {
-        position: absolute;
-        top: 248px;
-    }
-
     .offers-title {
         font-size: 42px;
     }
+
     .offers-text {
         font-size: 16px;
         margin-bottom: 24px;
         max-width: 520px;
     }
+
+    .offers-img {
+
+
+
+    }
+
+
 }
 
 
 @media screen and (min-width:1158px) {
     .offers {
         padding-top: 176px;
-        padding-bottom: 201px;
     }
     .container-offers {
-        position: static;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
     }
-    .offers-img {
-        position: static;
-    
-    }
-    .offers-text-wrap {
-        position: static;}
 
     .offers-form {
         display: flex;
         flex-direction: row;
         gap: 32px;
         }
+
 }
 /*------------------------------------------*/
 /*------------------Footer------------------------*/
