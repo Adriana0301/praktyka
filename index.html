@@ -64,7 +64,13 @@
             <div class="container about-container">
                 <div class="about-border">
                 <div class="about-img-wraper">
-                <img src="./images/apple.png" alt="apple" width="396" height="502" class="img-about"></div></div>
+                    <picture class="apple-picture">  
+                        <source srcset="./images/apple-tab.png 1x, ./images/apple-tab2x.png 2x" media="(min-width:768px)">
+                        <source srcset="./images/apple-mb.png 1x, ./images/apple-mb2x.png 2x" media="(max-width:768px)">
+                        <source srcset="./images/apple.png 1x, ./images/apple2x.png 2x" media="(min-width:1158px)">
+                        <img src="./images/apple.png" alt="apple" width="396" height="502" class="img-about">
+                    </picture>  
+                </div></div>
                 <div class="about-wrap">
                     <h2 class="about-title">What`s Special About Our Offerings</h2>
                     <p class="about-text">With our platform, you can browse through a diverse selection of cuisines and local restaurants, and choose from a variety of dishes that cater to your specific taste buds.</p>
@@ -104,12 +110,54 @@
                 <h2 class="food-title">Some of Our Favorites</h2>
                 <p class="food-text">Looking for something delicious?</p>
                 <ul class="food-list">
-                    <li class="food-list-item"><img src="./images/gamburger-min.png" alt="gamburger" width="315" height="315"></li>
-                    <li class="food-list-item"><img src="./images/Pasta-min.png" alt="pasta" width="315" height="315"></li>
-                    <li class="food-list-item"><img src="./images/pizza-min.png" alt="pizza" width="315" height="315"></li>
-                    <li class="food-list-item"><img src="./images/chicken-min.png" alt="chicken" width="315" height="315"></li>
-                    <li class="food-list-item"><img src="./images/salat-min.png" alt="salat" width="315" height="315"></li>
-                    <li class="food-list-item"><img src="./images/borshch-min.png" alt="borshch" width="315" height="315"></li>
+                    <li class="food-list-item">
+                        <picture class="food-picture">  
+                            <source srcset="./images/gamburger-tab.png 1x, ./images/gamburger-tab2x.png 2x" media="(min-width:768px)">
+                            <source srcset="./images/gamburger-mb.png 1x, ./images/gamburger-mb2x.png 2x" media="(max-width:768px)">
+                            <source srcset="./images/gamburger-min.png 1x, ./images/gamburger2x.png 2x" media="(min-width:1158px)">
+                            <img src="./images/gamburger-min.png" alt="gamburger" width="315" height="315">
+                        </picture>
+                    </li>
+                    <li class="food-list-item">                    
+                        <picture class="food-picture">  
+                        <source srcset="./images/Pasta-tab.png 1x, ./images/Pasta-tab2x.png 2x" media="(min-width:768px)">
+                        <source srcset="./images/Pasta-mb.png 1x, ./images/Pasta-mb2x.png 2x" media="(max-width:768px)">
+                        <source srcset="./images/Pasta-min.png 1x, ./images/Pasta2x.png 2x" media="(min-width:1158px)">
+                        <img src="./images/Pasta-min.png" alt="pasta" width="315" height="315">
+                    </picture>
+                </li>
+                    <li class="food-list-item">
+                        <picture class="food-picture">  
+                            <source srcset="./images/pizza-tab.png 1x, ./images/pizza-tab2x.png 2x" media="(min-width:768px)">
+                            <source srcset="./images/pizza-mb.png 1x, ./images/pizza-mb2x.png 2x" media="(max-width:768px)">
+                            <source srcset="./images/pizza-min.png 1x, ./images/pizza2x.png 2x" media="(min-width:1158px)">
+                            <img src="./images/pizza-min.png" alt="pizza" width="315" height="315">
+                        </picture>
+                    </li>
+                    <li class="food-list-item">
+                        <picture class="food-picture">  
+                            <source srcset="./images/chicken-tab.png 1x, ./images/chicken-tab2x.png 2x" media="(min-width:768px)">
+                            <source srcset="./images/chicken-mb.png 1x, ./images/chicken-mb2x.png 2x" media="(max-width:768px)">
+                            <source srcset="./images/chicken-min.png 1x, ./images/chicken2x.png 2x" media="(min-width:1158px)">
+                            <img src="./images/chicken-min.png" alt="pizza" width="315" height="315">
+                        </picture>
+                    </li>
+                    <li class="food-list-item">
+                        <picture class="food-picture">  
+                            <source srcset="./images/salat-tab.png 1x, ./images/salat-tab2x.png 2x" media="(min-width:768px)">
+                            <source srcset="./images/salat-mb.png 1x, ./images/salat-mb2x.png 2x" media="(max-width:768px)">
+                            <source srcset="./images/salat-min.png 1x, ./images/salat2x.png 2x" media="(min-width:1158px)">
+                            <img src="./images/salat-min.png" alt="pizza" width="315" height="315">
+                        </picture>
+                    </li>
+                    <li class="food-list-item">
+                        <picture class="food-picture">  
+                            <source srcset="./images/borshch-tab.png 1x, ./images/borshch-tab2x.png 2x" media="(min-width:768px)">
+                            <source srcset="./images/borshch-mb.png 1x, ./images/borshch-mb2x.png 2x" media="(max-width:768px)">
+                            <source srcset="./images/borshch-min.png 1x, ./images/borshch2x.png 2x" media="(min-width:1158px)">
+                            <img src="./images/borshch-min.png" alt="pizza" width="315" height="315">
+                        </picture>
+                    </li>
                 </ul>   
             </div>
         </section> 
